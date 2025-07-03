@@ -70,8 +70,9 @@
   </a-scene>
     
   <script>
-    const model = document.getElementById(gltf-model);
-
+    const model = document.getElementById('gltf-model');
+    const controls = document.getElementById('controls');
+      
     function zoom(factor) {
       const scale = model.getAttribute('scale');
       const newScale = {
